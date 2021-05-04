@@ -1,0 +1,24 @@
+{
+  "name": "blog-site",
+  "version": "0.0.1",
+  "description": "The best blog site",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/blog-site",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "start": "nodemon --ext md,vue,js --watch .vuepress --watch . --exec vuepress dev src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-social-share": "^1.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
